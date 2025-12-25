@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact & Reservations | Rasoi Tales</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">Rasoi Tales</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="events.html">Festivals</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html" class="cta-nav">Book a Table</a></li>
+        </ul>
+        <div class="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <header class="page-header" style="background-image: url('https://images.unsplash.com/photo-1552566626-52f8b828add9?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80');">
+        <h1>Reservations</h1>
+    </header>
+
+    <section class="container">
+        <div class="contact-container">
+            
+            <div class="contact-info">
+                <div class="info-item">
+                    <h3><i class="fas fa-map-marker-alt"></i> Location</h3>
+                    <p>Civic Center, Bhilai,<br>Chhattisgarh 490006, India</p>
+                </div>
+                <div class="info-item">
+                    <h3><i class="fas fa-phone-alt"></i> Phone</h3>
+                    <p>Reservations: +91 98765 43210<br>Events: +91 98765 43211</p>
+                </div>
+                <div class="info-item">
+                    <h3><i class="fas fa-envelope"></i> Email</h3>
+                    <p>hello@lumieredining.in<br>events@lumieredining.in</p>
+                </div>
+                <div class="info-item">
+                    <h3><i class="fas fa-clock"></i> Opening Hours</h3>
+                    <p>Monday - Sunday: 12:00 PM - 11:00 PM<br>Happy Hour: 4:00 PM - 7:00 PM</p>
+                </div>
+            </div>
+
+            <form action="#">
+                <h3>Book a Table</h3>
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" class="form-control" placeholder="Abhishek" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" class="form-control" placeholder="abhishek@example.com" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" class="form-control" placeholder="+91 98765 43210" required>
+                </div>
+                <div class="form-group">
+                    <label for="date">Date</label>
+                    <input type="date" id="date" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label for="time">Time</label>
+                    <select id="time" class="form-control">
+                        <option>12:00 PM</option>
+                        <option>1:00 PM</option>
+                        <option>2:00 PM</option>
+                        <option>7:00 PM</option>
+                        <option>8:00 PM</option>
+                        <option>9:00 PM</option>
+                        <option>10:00 PM</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="guests">Number of Guests</label>
+                    <select id="guests" class="form-control">
+                        <option>2 People</option>
+                        <option>3 People</option>
+                        <option>4 People</option>
+                        <option>5 People</option>
+                        <option>6+ People</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn-primary" style="margin-top: 1rem; border: none; width: 100%;">Confirm Reservation</button>
+            </form>
+
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-col">
+                <h3>Rasoi Tales</h3>
+                <p>Civic Center, Bhilai,<br>Chhattisgarh 490006, India</p>
+            </div>
+            <div class="footer-col">
+                <h3>Hours</h3>
+                <p>Mon-Sun: 12pm - 11pm<br>Happy Hour: 4pm - 7pm</p>
+            </div>
+            <div class="footer-col">
+                <h3>Contact</h3>
+                <p>+91 98765 43210<br>hello@rasoitalesdining.in</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Rasoi Tales Restaurant. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
